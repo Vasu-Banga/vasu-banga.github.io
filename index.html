@@ -1,0 +1,210 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Landing Page - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Sidebar -->
+			<section id="sidebar">
+				<div class="inner">
+					<nav>
+						<ul>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#one">My Story</a></li>
+							<li><a href="#two">VA Engine</a></li>
+							<li><a href="#three">Contact</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Intro -->
+					<section id="intro" class="wrapper style1 fullscreen fade-up">
+						<div class="inner">
+							<h1>Vasu Banga</h1>
+							<p>University of Michigan Student - Class of 2027</p>
+							<ul class="actions">
+								<li><a href="#one" class="button scrolly">A Bit About Me!</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- One -->
+					<section id="one" class="wrapper style2 spotlights">
+						<section>
+							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>Computer Science @ UofM</h2>
+									<p>Currently Pursuing a Bachelors Degree for Computer Science, expected to graduate in December of 2026</p>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>My Photography Journey</h2>
+									<p>Exploring Photography Has Been A Passion Of Mine, Feel Free to Check Out Some Photos!</p>
+									<ul class="actions">
+										<li><a href="https://adobe.ly/42kws6K" class="button">My Lightroom Album!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+						<section>
+							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
+							<div class="content">
+								<div class="inner">
+									<h2>VA Engine</h2>
+									<p>C++ Minimalist Game Engine - Scripting via Lua, Graphics Support and Controller Support via SDL, and 2D Physics via Box2D</p>
+									<ul class="actions">
+										<li><a href="https://github.com/Vasu-Banga/VA_engine" class="button">Github!</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Two -->
+					<section id="two" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>VA Engine</h2>
+							<p>Minimalist/Integrated Game Engine Developed Fully In House</p>
+							<div class="features">
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Scripting</h3>
+									<p>All scripts go in resouces/component_types. Scripts/Components are written in Lua, and are linked together internally using the Lua and Luabridge packages</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-lock"></span>
+									<h3>Licenses</h3>
+									<p>
+                                        GLM is licensed under The Happy Bunny License or MIT License<br>
+                                        RapidJSON is distributed under the permissive MIT License<br>
+                                        SDL2 is licensed under the zlib license<br>
+                                        Lua is licensed under the MIT License<br>
+                                        LuaBridge is licensed under the MIT License<br>
+                                        Box2D is licensed under the MIT License
+                                    </p>
+								</section>
+								<section>
+									<span class="icon solid major fa-cog"></span>
+									<h3>Configurations</h3>
+									<p>Files can allow you to configure the feel of your game. Files like game.config and rendering.config allow you to control global parameters, and files in resources/scenes allow you to configure how individual scenes look in your game. All file management and reading is done through rapidjson. Values are loaded in and stored in glm vectors</p>
+								</section>
+								<section>
+									<span class="icon solid major fa-desktop"></span>
+									<h3>Displays</h3>
+									<p>Displays handled through SDL2. Can configure window sizes through rendering.config. Allows for </p>
+								</section>
+								<section>
+									<span class="icon solid major fa-link"></span>
+									<h3>Input</h3>
+									<p>Input's facilitated through the SDL library. Supports Controller, Mouse, and Controller Input. Uses a Built-in Input Class To Allow Full Input Integration.</p>
+								</section>
+								<section>
+									<span class="icon major fa-gem"></span>
+									<h3>Physics</h3>
+									<p>Physics Fully Integrated Through Box2D. <br>Adding in a RigidBody component to an object will allow for collisions, triggers, and physics operations. Fully configurable through scripts or in the scene.</p>
+								</section>
+							</div>
+							<ul class="actions">
+								<li><a href="https://github.com/Vasu-Banga/VA_engine" class="button">Github!</a></li>
+							</ul>
+						</div>
+					</section>
+
+				<!-- Three -->
+					<section id="three" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Get in touch</h2>
+							<p>Feel free to reach out via email or any of my socials!</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="#">
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<!-- <li>
+											<h3>Address</h3>
+											<span>12345 Somewhere Road #654<br />
+											Nashville, TN 00000-0000<br />
+											USA</span>
+										</li> -->
+										<li>
+											<h3>Email</h3>
+											<a href="#">vbanga@umich.edu</a>
+										</li>
+										<!-- <li>
+											<h3>Phone</h3>
+											<span>(000) 000-0000</span>
+										</li> -->
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://github.com/Vasu-Banga" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.instagram.com/vasubanga05/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/vasubanga/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
